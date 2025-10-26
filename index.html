@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eden</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/media/favicon/favicon.svg" type="image/x-icon">
+</head>
+
+<body> 
+    <!-- hero start -->
+    <div class="hero">
+        <div class="container">
+            <!-- header start -->
+            <header>
+                <div class="header__logo">
+                    <svg width="65" height="60" viewBox="0 0 65 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M25.4485 0.259837L27.4239 0.941905V6.95062C26.3525 6.13863 25.1137 5.68392 23.7745 5.68392C19.8907 5.68392 16.7435 9.61394 16.7435 14.4209C16.7435 19.2279 19.8907 23.1579 23.7745 23.1579H24.3771L27.6582 21.339C27.6582 21.339 27.6582 21.3066 27.6917 21.3066L29.734 22.7357H30.2697L32.7808 20.8518V20.6245L30.8389 20.8518V0H25.4485V0.259837ZM20.1585 14.4209C20.1585 9.84129 21.7656 6.10615 23.7745 6.10615C25.3815 6.10615 26.8882 7.56773 27.4239 9.74385V20.8518L24.0088 22.7357H23.7745C21.7991 22.7357 20.1585 19.0005 20.1585 14.4209Z" fill="#F4F4F4"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.75427 22.7681H17.5774L11.5509 10.1011L13.3253 9.45154V9.22418H5.85913V0.552152H11.4504C12.5218 0.552152 13.5597 0.974387 14.3298 1.72142C15.0998 2.46844 15.5351 3.47531 15.5351 4.51465V5.71639H15.7694L16.6065 0.0324791H0V0.259837L1.94188 0.974386V20.8843L4.75427 22.7681ZM12.0531 22.216H5.85913V9.77633H8.40367C9.84334 9.77633 11.1826 10.5883 11.7852 11.855C12.1089 12.5371 12.4808 13.3273 12.8528 14.1176C13.5969 15.6983 14.3409 17.2791 14.698 17.9937C14.832 18.2535 14.8989 18.5133 14.9659 18.8056C15.1333 19.6501 14.8989 20.5271 14.3298 21.1766C13.7606 21.8262 12.9236 22.216 12.0531 22.216Z" fill="#F4F4F4"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M46.4946 11.043L36.3164 16.7594C36.9191 20.2347 38.8944 22.7357 41.6733 22.7357C43.7826 22.7357 45.7245 21.9886 46.8963 20.2023L47.3316 20.4946C46.0928 22.4758 43.9165 23.1579 41.6733 23.1579C36.7182 23.1579 32.7005 19.2604 32.7005 14.4534C32.7005 9.64642 36.7182 5.74887 41.6733 5.74887C43.7491 5.74887 45.6241 6.43094 47.1307 7.53525V7.56773L46.4946 11.043ZM45.7245 10.8482C44.7536 7.69765 43.5483 6.13863 41.6733 6.13863C38.3253 6.13863 36.1155 9.80882 36.1155 14.4534C36.1155 15.038 36.149 15.6227 36.216 16.1748L45.7245 10.8482Z" fill="#F4F4F4"/>
+                        <path d="M55.4245 5.71639L52.3778 7.40533V6.10615H47.0208V6.36599L48.9627 7.04806V21.0792L51.2729 22.7681H51.8421L54.3531 20.8843V20.6245L52.3778 20.8843V8.02244L55.7928 6.10615H56.0271C58.036 6.10615 59.6431 6.59334 59.6431 10.4584V21.0792L61.9532 22.7681H62.5224L65 20.8843V20.6245L63.0581 20.8843V10.4584C63.0581 5.87879 59.9109 5.71639 56.0271 5.71639H55.4245Z" fill="#F4F4F4"/>
+                        <path d="M18.8968 25.1489V60H20.8395L25.7845 56.5985V25.9113L28.9163 24.7278L28.9191 56.5985H35.8039L35.804 24.6221L39.2155 25.9113V56.5985L44.1605 60H46.1032V25.1489H55.9342C57.818 25.1489 59.643 25.9113 60.9969 27.2602C62.3509 28.609 63.1162 30.4271 63.1162 32.3038V34.4737H63.5283L65 24.2105H35.8011V24.2282L29.1989 24.2105H0L1.47172 34.4737H1.8838V32.3038C1.8838 30.4271 2.64909 28.609 4.00307 27.2602C5.35704 25.9113 7.18197 25.1489 9.06577 25.1489H18.8968Z" fill="#F4F4F4"/>
+                    </svg>       
+                </div>
+                <div class="header__navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#billboard">Афиша</a></li>
+                            <li><a href="#">Касса</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Расписание</a></li>
+                            <li><a href="#about">О театре</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#footer">Контакты</a></li>
+                            <li><a href="#news">Новости</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#last-chance">Прочее</a></li>
+                        </ul>    
+                    </nav>
+
+                    <button class="header__button-office btn">Личный кабинет</button>
+                </div>
+            </header>
+            <!-- header end -->
+
+            <!-- banner start -->
+            <div class="hero-banner">
+                <div class="hero-banner__content">
+                    <div class="badges">
+                        <p>
+                            <span class="badges-premiere">Премьера</span>
+                            <span class="icon-rhomd">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.343262" y="6" width="8" height="8" transform="rotate(-45 0.343262 6)" fill="white"/>
+                                </svg>
+                            </span>
+                            Драма
+                        </p>
+                    </div>
+                    <h1>Monolith</h1>
+                    <div class="hero-banner__line"></div>
+                    <p>Загадочная театральная история о встрече <br>
+                        с таинственным объектом, который меняет жизни <br>персонажей. Через борьбу и осознание они находят <br> смысл и свободу, доказывая, что одно мгновение <br> способно перевернуть всё
+                    </p>
+                    <div class="hero-banner__buttons">
+                        <button class="hero-banner__button-buy-tickets btn">
+                            Приобрести билеты
+                            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.1287 8.24992L8.1057 4.22692L9.16635 3.16626L15 8.99992L9.16635 14.8335L8.1057 13.7729L12.1287 9.74992H3V8.24992H12.1287Z"/>
+                            </svg>   
+                        </button>
+                        <button class="hero-banner__button-more-detailed btn-secondary">Подробности</button>
+                    </div>
+                </div>
+                <div class="hero-banner__info py-20">
+                    <!-- block-1 -->
+                    <div class="hero-banner__info-block">
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">20</span>
+                                <p>ноя</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Monolith</span>
+                                <div class="show__genre-time">
+                                    <p>Драма</p>
+                                    <span class="show-time">cp 20:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- block-2 -->
+                    <div class="hero-banner__info-block">
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">28</span>
+                                <p>ноя</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Monolith</span>
+                                <div class="show__genre-time">
+                                    <p>Драма</p>
+                                    <span class="show-time">чт 19:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- block-3 -->
+                    <div class="hero-banner__info-block">
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">6</span>
+                                <p>дек</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Monolith</span>
+                                <div class="show__genre-time">
+                                    <p>Драма</p>
+                                    <span class="show-time">пт 20:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- block-4 -->
+                    <div class="hero-banner__info-block">
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">14</span>
+                                <p>дек</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Monolith</span>
+                                <div class="show__genre-time">
+                                    <p>Драма</p>
+                                    <span class="show-time">сб 19:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- banner end -->
+        </div>
+        <div class="line"></div>
+    </div>
+    <!-- hero end -->
+     
+    <!-- billboard start -->
+    <div class="billboard" id="billboard">
+        <div class="container py-80">
+            <div class="billboard__content">
+                <h2>Афиша</h2>
+                <div class="billboard__filtering">
+                    <!-- dates -->
+                    <div class="billboard__filtering-month">
+                        <!-- nov -->
+                        <div class="billdoard__month">
+                            <span class="billdoard__month-name">Ноябрь</span>
+                            <div class="billdoard__month-dates">
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day date-weekend">вс</span>
+                                    <button class="billdoard__date-button">17</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">пн</span>
+                                    <button class="billdoard__date-button">18</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">вт</span>
+                                    <button class="billdoard__date-button">19</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">ср</span>
+                                    <button class="billdoard__date-button">20</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">чт</span>
+                                    <button class="billdoard__date-button">21</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">пт</span>
+                                    <button class="billdoard__date-button">22</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day date-weekend">сб</span>
+                                    <button class="billdoard__date-button">23</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day date-weekend">вс</span>
+                                    <button class="billdoard__date-button">24</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">пн</span>
+                                    <button class="billdoard__date-button">25</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">вт</span>
+                                    <button class="billdoard__date-button">26</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">ср</span>
+                                    <button class="billdoard__date-button">27</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">чт</span>
+                                    <button class="billdoard__date-button">28</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">пт</span>
+                                    <button class="billdoard__date-button">29</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day date-weekend">сб</span>
+                                    <button class="billdoard__date-button">30</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- nov -->
+                        <!-- dec -->
+                        <div class="billdoard__month">
+                            <span class="billdoard__month-name">Декабрь</span>
+                            <div class="billdoard__month-dates">
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day date-weekend">вс</span>
+                                    <button class="billdoard__date-button">1</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">пн</span>
+                                    <button class="billdoard__date-button">2</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">вт</span>
+                                    <button class="billdoard__date-button">3</button>
+                                </div>
+                                <!-- date-item -->
+                                <div class="billdoard__date-item">
+                                    <span class="billdoard__date-day">ср</span>
+                                    <button class="billdoard__date-button">4</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- dec -->
+                        <button class="billdoard__button-arrow">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.6315 12.5L10.8838 3.5321L9.11621 4.46788L13.3685 12.5L9.11621 20.5321L10.8838 21.4679L15.6315 12.5Z"/>
+                            </svg>
+                        </button>
+                        <div class="billdoard_filtering-line"></div>
+                    </div>
+                    <!-- dates -->
+                    <!-- filter -->
+                    <div class="billboard__filtering-categories">
+                        <button class="billboard__catagories-close btn-secondary">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.99978 7.93987L12.7121 4.22754L13.7728 5.2882L10.0604 9.00052L13.7728 12.7128L12.7121 13.7734L8.99978 10.0612L5.28747 13.7734L4.22681 12.7128L7.93913 9.00052L4.22681 5.2882L5.28747 4.22754L8.99978 7.93987Z"/>
+                            </svg>    
+                        </button>
+                        <button class="billboard__catagories-genre btn-secondary">
+                            Жанры
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.99992 9.87855L12.7123 6.16626L13.7729 7.22692L8.99992 11.9999L4.22699 7.22692L5.28765 6.16626L8.99992 9.87855Z"/>
+                            </svg>         
+                        </button>
+                        <button class="billboard__catagories-persons btn-secondary">
+                            Персоны
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.99992 9.87855L12.7123 6.16626L13.7729 7.22692L8.99992 11.9999L4.22699 7.22692L5.28765 6.16626L8.99992 9.87855Z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- filter -->
+                </div>
+                <div class="billboard__catalog">
+                    <!-- catalog-card-1 -->
+                    <div class="billboard__catalog-card" style="--width-card: 325px; --height-card: 504px;">
+                        <!-- card-item -->
+                        <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                        <!-- card-item -->
+
+                        <img src="assets/media/images/billboard/billboard-img-01.png" alt="billboard">
+
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">26</span>
+                                <p>ноя</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Свет в конце</span>
+                                <div class="show__genre-time">
+                                    <p>Сопрано</p>
+                                    <span class="show-time">вт 21:00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="billboard__button-buy-tickets btn">
+                            Приобрести билеты
+                        </button>
+                    </div>
+
+                    <!-- catalog-card-2 -->
+                    <div class="billboard__catalog-card" style="--width-card: 325px; --height-card: 504px;">
+                        <!-- card-item -->
+                        <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                        <!-- card-item -->
+
+                        <img src="assets/media/images/billboard/billboard-img-02.png" alt="billboard">
+
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">18</span>
+                                <p>ноя</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Риголетто</span>
+                                <div class="show__genre-time">
+                                    <p>Опера</p>
+                                    <span class="show-time">пн 19:30</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="billboard__button-buy-tickets btn">
+                            Приобрести билеты
+                        </button>
+                    </div>
+
+                    <!-- catalog-card-3 -->
+                    <div class="billboard__catalog-card" style="--width-card: 325px; --height-card: 504px;">
+                        <!-- card-item -->
+                        <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                        <!-- card-item -->
+
+                        <img src="assets/media/images/billboard/billboard-img-03.png" alt="billboard">
+
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">1</span>
+                                <p>дек</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Human</span>
+                                <div class="show__genre-time">
+                                    <p>Драма</p>
+                                    <span class="show-time">вс 20:00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="billboard__button-buy-tickets btn">
+                            Приобрести билеты
+                        </button>
+                    </div>
+
+                    <!-- catalog-card-4 -->
+                    <div class="billboard__catalog-card" style="--width-card: 325px; --height-card: 504px;">
+                        <!-- card-item -->
+                        <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                        <!-- card-item -->
+
+                        <img src="assets/media/images/billboard/billboard-img-04.png" alt="billboard">
+
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">21</span>
+                                <p>ноя</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Madallena</span>
+                                <div class="show__genre-time">
+                                    <p>Драма</p>
+                                    <span class="show-time">чт 21:30</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="billboard__button-buy-tickets btn">
+                            Приобрести билеты
+                        </button>
+                    </div>
+
+                    <!-- catalog-card-5 -->
+                    <div class="billboard__catalog-card" style="--width-card: 325px; --height-card: 504px;">
+                        <!-- card-item -->
+                        <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                        <!-- card-item -->
+
+                        <img src="assets/media/images/billboard/billboard-img-05.png" alt="billboard">
+
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">19</span>
+                                <p>ноя</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Несказанныe словa</span>
+                                <div class="show__genre-time">
+                                    <p>Комедия</p>
+                                    <span class="show-time">вт 20:30</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="billboard__button-buy-tickets btn">
+                            Приобрести билеты
+                        </button>
+                    </div>
+
+                    <!-- catalog-card-6 -->
+                    <div class="billboard__catalog-card" style="--width-card: 325px; --height-card: 504px;">
+                        <!-- card-item -->
+                        <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                        <!-- card-item -->
+
+                        <img src="assets/media/images/billboard/billboard-img-06.png" alt="billboard">
+
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">3</span>
+                                <p>дек</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Lum</span>
+                                <div class="show__genre-time">
+                                    <p>Балет</p>
+                                    <span class="show-time">ср 19:00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="billboard__button-buy-tickets btn">
+                            Приобрести билеты
+                        </button>
+                    </div>
+
+                    <!-- catalog-card-7 -->
+                    <div class="billboard__catalog-card" style="--width-card: 325px; --height-card: 504px;">
+                        <!-- card-item -->
+                        <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                        <!-- card-item -->
+
+                        <img src="assets/media/images/billboard/billboard-img-07.png" alt="billboard">
+
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">20</span>
+                                <p>ноя</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Monolith</span>
+                                <div class="show__genre-time">
+                                    <p>Драма</p>
+                                    <span class="show-time">cp 20:00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="billboard__button-buy-tickets btn">
+                            Приобрести билеты
+                        </button>
+                    </div>
+
+                    <!-- catalog-card-8 -->
+                    <div class="billboard__catalog-card" style="--width-card: 325px; --height-card: 504px;">
+                        <!-- card-item -->
+                        <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                        <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                        <!-- card-item -->
+
+                        <div class="billboard__img">
+                            <p>СКОРО</p>
+                        </div>
+
+                        <div class="info-show">
+                            <div class="info-show__date-block">
+                                <span class="show__date-number">-</span>
+                                <p>дек</p>
+                            </div>
+                            <div class="info-show__text">
+                                <span class="show-titles">Hа грани</span>
+                                <div class="show__genre-time">
+                                    <p>Опера</p>
+                                    <!-- <span class="show-time">вт 21:00</span> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="billboard__button-buy-tickets btn">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <button class="billboard__button-watch-all btn-secondary">Смотреть все спектакли</button>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <!-- billboard end -->
+
+    <!-- about-the-theater start-->
+    <div class="about" id="about">
+        <div class="container py-80">
+            <div class="about__content">
+                <h2>О театре</h2>
+                <div class="about__who-are-we py-20">
+                    <h3>Кто мы</h3>
+                    <p>&emsp;&emsp;&emsp; Eden — уникальное пространство, где сливаются современные идеи и традиции театрального искусства, создавая захватывающие иммерсивные впечатления <br>
+                    &emsp;&emsp;&emsp; Мы верим в силу человеческих эмоций и историю, которую каждый из нас носит в себе. Наша миссия — не просто представлять спектакли, а погружать зрителей в удивительный мир, заставляя их стать неотъемлемой частью каждой истории.</p>
+                </div>
+                <div class="about__actors py-20">
+                    <h3>Актеры</h3>
+                    <div class="about__actors-cards">
+                        <!-- actors-cards-1 -->
+                        <div class="about__actors-card">
+                            <div class="actors-card-top" style="--width-card: 325px; --height-card: 523px;">
+                                <!-- card-item -->
+                                <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                                <!-- card-item -->    
+                                
+                                <img src="assets/media/images/about/about-img-01.png" alt="">
+                            </div>
+                            <div class="actors-card-bottom">
+                                <span class="actors-name">Татьяна Федорова</span>
+                                <div class="actors-rank">
+                                    <p>Балерина</p>
+                                </div> 
+                            </div>
+                        </div>
+                        <!-- actors-cards-block -->
+                        <div class="actors-cards-block" style="--width-card: 325px; --height-card: 607px;"></div>
+                        <!-- actors-cards-2 -->
+                        <div class="about__actors-card">
+                            <div class="actors-card-top" style="--width-card: 325px; --height-card: 523px;">
+                                <!-- card-item -->
+                                <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                                <!-- card-item -->    
+                                
+                                <img src="assets/media/images/about/about-img-02.png" alt="">
+                            </div>
+                            <div class="actors-card-bottom">
+                                <span class="actors-name">Владимир Морозов</span>
+                                <div class="actors-rank">
+                                    <p>Актер</p>
+                                </div>  
+                            </div>
+                        </div>
+                        <!-- actors-cards-3 -->
+                        <div class="about__actors-card">
+                            <div class="actors-card-top" style="--width-card: 325px; --height-card: 523px;">
+                                <!-- card-item -->
+                                <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                                <!-- card-item -->    
+                                
+                                <img src="assets/media/images/about/about-img-03.png" alt="">
+                            </div>
+                            <div class="actors-card-bottom">
+                                <span class="actors-name">Мария Петрова</span>
+                                <div class="actors-rank">
+                                    <p>Певица</p>
+                                    <svg width="1" height="21" viewBox="0 0 1 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line x1="0.5" y1="2.28964e-08" x2="0.499999" y2="21" stroke="#7E7E7E"/>
+                                    </svg>
+                                    <p>Актриса</p>
+                                </div>   
+                            </div>
+                        </div>
+                        <!-- actors-cards-block -->
+                        <div class="actors-cards-block" style="--width-card: 325px; --height-card: 607px;"></div>
+                        <!-- actors-cards-4 -->
+                        <div class="about__actors-card">
+                            <div class="actors-card-top" style="--width-card: 325px; --height-card: 523px;">
+                                <!-- card-item -->
+                                <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                                <!-- card-item -->    
+                                
+                                <img src="assets/media/images/about/about-img-04.png" alt="">
+                            </div>
+                            <div class="actors-card-bottom">
+                                <span class="actors-name">Артем Васильев</span>
+                                <div class="actors-rank">
+                                    <p>Балерина</p>
+                                    <svg class="line-separation" width="1" height="21" viewBox="0 0 1 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line x1="0.5" y1="2.28964e-08" x2="0.499999" y2="21" stroke="#7E7E7E"/>
+                                    </svg>
+                                    <p>Музыкант</p>
+                                </div>   
+                            </div>
+                        </div>
+                        <!-- actors-cards-5 -->
+                        <div class="about__actors-card">
+                            <div class="actors-card-top" style="--width-card: 325px; --height-card: 523px;">
+                                <!-- card-item -->
+                                <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                                <!-- card-item -->    
+                                
+                                <img src="assets/media/images/about/about-img-05.png" alt="">
+                            </div>
+                            <div class="actors-card-bottom">
+                                <span class="actors-name">Ольга Николаева</span>
+                                <div class="actors-rank">
+                                    <p>Актриса</p>
+                                </div>   
+                            </div>
+                        </div>
+                        <!-- actors-cards-additionally -->
+                        <div class="about__actors-card">
+                            <div class="actors-card-top" style="--width-card: 325px; --height-card: 523px;">
+                                <!-- card-item -->
+                                <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                                <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                                <!-- card-item -->    
+                                <div class="actors-card-top-text"> 
+                                    <p class="actors-card-number"><span>+</span>23</p>
+                                    <p>Актера</p>
+                                </div>
+                            </div>
+                            <div class="actors-card-bottom-button">
+                                <button class="about__button-watch-all">
+                                    Смотреть всех актеров
+                                    <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.1287 8.24992L8.1057 4.22692L9.16635 3.16626L15 8.99992L9.16635 14.8335L8.1057 13.7729L12.1287 9.74992H3V8.24992H12.1287Z"/>
+                                     </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__people py-20">
+                    <h3>Люди театра</h3>
+                    <div class="about__people-blocks">
+                        <!-- block-1 -->
+                        <div class="about__people-block">
+                            <span class="about__people-title">
+                            Основатели театра
+                            </span>
+                            <ul>
+                                <li>Дмитрий Новиков</li>
+                            </ul>
+                        </div>
+                        <!-- block-2 -->
+                        <div class="about__people-block">
+                            <div class="about__people-title">
+                                <p>Режиссеры</p>
+                            </div>
+                            <ul>
+                                <li>Алексей Попов</li>
+                                <li>Татьяна Павлова</li>
+                                <li>Полина Кравцова</li>
+                            </ul>
+                        </div>
+                        <!-- block-3 -->
+                        <div class="about__people-block">
+                            <div class="about__people-title">
+                                <p>Постановщики</p>
+                            </div>
+                            <ul>
+                                <li>Людмила Шевченко</li>
+                                <li>Константин Никитин</li>
+                                <li>Василий Белов</li>
+                            </ul>
+                        </div>
+                        <!-- block-4 -->
+                        <div class="about__people-block">
+                            <div class="about__people-title">
+                                <p>Сценаристы</p>
+                            </div>
+                            <ul>
+                                <li>Артём Соловьёв</li>
+                                <li>Нина Матвеева</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <!-- about-the-theater end-->
+
+    <!-- news start -->
+    <div class="news" id="news">
+        <div class="container py-80">
+            <div class="news__content py-20">
+                <h2>Новости</h2>
+                <div class="news__block">
+                    <div class="news__block-choice">
+                        <!-- item-1 -->
+                        <div class="news__block-choice-item">
+                            <img src="assets/media/images/news/news-img-01.png" alt="">
+                            <div class="block-choice-info">
+                                <span class="block-choice-date">16.11.2024</span>
+                                <h4>Открытие нового сезона <br>
+                                    удивительных постановок
+                                </h4>
+                                <p>Команда театра "Eden" радостно сообщает <br>
+                                    о начале нового сезона, который обещает...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="news__block-line"></div>
+                        <!-- item-2 -->
+                         <div class="news__block-choice-item">
+                            <img src="assets/media/images/news/news-img-02.png" alt="">
+                            <div class="block-choice-info">
+                                <span class="block-choice-date">11.11.2024</span>
+                                <h4>Обновленный интерьер <br>
+                                    театра 'Eden'
+                                </h4>
+                                <p>Театр "Eden" завершил освежение своего <br>интерьера, и  теперь зрителей ожидает новая...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="news__block-line"></div>
+                        <!-- item-3 -->
+                        <div class="news__block-choice-item">
+                            <img src="assets/media/images/news/news-img-03.png" alt="">
+                            <div class="block-choice-info">
+                                <span class="block-choice-date">27.10.2024</span>
+                                <h4>Завораживающая постановка <br> 'Dracula'
+                                </h4>
+                                <p>C гордостью объявляет о премьере постановки <br>классической истории о графе Дракуле
+                                </p>
+                            </div>
+                        </div>
+                        <div class="news__block-line"></div>
+                        <!-- item-4 -->
+                        <div class="news__block-choice-item">
+                            <img src="assets/media/images/news/news-img-04.png" alt="">
+                            <div class="block-choice-info">
+                                <span class="block-choice-date">27.10.2024</span>
+                                <h4>Премьера новой постановки 
+                                    'Monolith'<br>
+                                </h4>
+                                <p>Загадочная театральная история о встрече <br>с таинственным объектом, который меняет жизни 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__line-vertical"></div>
+                    <div class="news__banner">
+                        <div class="news__banner-img" style="--width-card: 660px; --height-card:380px">
+                            <!-- card-item -->
+                            <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                            <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                            <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                            <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                            <!-- card-item -->    
+                                
+                            <img src="assets/media/images/news/news-img-banner.png" alt="">
+                        </div>
+                        <div class="news__banner-info">
+                            <span class="block-choice-date">16.11.2024</span>
+                            <h4>Открытие нового сезона <br>
+                                удивительных постановок
+                            </h4>
+                            <p>Команда театра "Eden" радостно сообщает <br> 
+                                о начале нового сезона, который обещает <br>
+                                быть ярким и насыщенным.
+                            </p>
+                            <p>В этом месяце зрителей ждут премьеры <br>
+                                нескольких драматургических произведений, <br>
+                                в том числе трогательной истории о любви <br>
+                                и дружбе “На перекрестках судеб”
+                            </p>
+                        </div>
+                        <div class="news__banner-reaction">
+                            <!-- up -->
+                            <button class="news__banner-reaction-item">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.5998 8.00033H21C22.1046 8.00033 23 8.89576 23 10.0003V12.1047C23 12.3659 22.9488 12.6246 22.8494 12.8662L19.755 20.3811C19.6007 20.7558 19.2355 21.0003 18.8303 21.0003H2C1.44772 21.0003 1 20.5526 1 20.0003V10.0003C1 9.44804 1.44772 9.00033 2 9.00033H5.48184C5.80677 9.00033 6.11143 8.84246 6.29881 8.57701L11.7522 0.851355C11.8947 0.649486 12.1633 0.581978 12.3843 0.692483L14.1984 1.59951C15.25 2.12534 15.7931 3.31292 15.5031 4.45235L14.5998 8.00033ZM7 10.5878V19.0003H18.1606L21 12.1047V10.0003H14.5998C13.2951 10.0003 12.3398 8.77128 12.6616 7.50691L13.5649 3.95894C13.6229 3.73105 13.5143 3.49353 13.3039 3.38837L12.6428 3.0578L7.93275 9.73038C7.68285 10.0844 7.36341 10.3746 7 10.5878ZM5 11.0003H3V19.0003H5V11.0003Z"/>
+                                </svg>
+                                112  
+                            </button>
+                            <!-- down -->
+                            <button class="news__banner-reaction-item">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.40017 16H3C1.89543 16 1 15.1046 1 14V11.8957C1 11.6344 1.05118 11.3757 1.15064 11.1342L4.24501 3.61925C4.3993 3.24455 4.76447 3 5.16969 3H22C22.5523 3 23 3.44772 23 4V14C23 14.5523 22.5523 15 22 15H18.5182C18.1932 15 17.8886 15.1579 17.7012 15.4233L12.2478 23.149C12.1053 23.3508 11.8367 23.4184 11.6157 23.3078L9.80163 22.4008C8.74998 21.875 8.20687 20.6874 8.49694 19.548L9.40017 16ZM17 13.4125V5H5.83939L3 11.8957V14H9.40017C10.7049 14 11.6602 15.229 11.3384 16.4934L10.4351 20.0414C10.3771 20.2693 10.4857 20.5068 10.6961 20.612L11.3572 20.9425L16.0673 14.27C16.3172 13.9159 16.6366 13.6257 17 13.4125ZM19 13H21V5H19V13Z"/>
+                                </svg> 
+                                2   
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button class="news__button-read-everything btn-secondary">Читать все новости</button>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <!-- news end -->
+
+    <!-- last-chance start-->
+    <div class="last-chance" id="last-chance">
+        <div class="container py-80">
+            <div class="last-chance__content py-20">
+                <h2>Последний шанс</h2>
+                <p>Не упустите шанс посетить финальные показы спектаклей</p>
+                <div class="last-chance__block">
+                    <!-- ticket-1 -->
+                    <div class="last-chance__block-item">
+                        <div class="last-chance__info">
+                            <div class="last-chance__date-time">
+                                <div class="last-chance__date">
+                                    <span class="last-chance__date-number">25</span>
+                                    <p>ноя</p>
+                                </div>
+                                <p>Пн 20:00</p>
+                            </div>
+                            <div class="last-chance__line"></div>
+                            <div class="last-chance__info-text">
+                                <div class="show-titles-list">
+                                    <span class="show-titles">Зеркало души</span>
+                                    <div class="show-list">
+                                        <ul>
+                                            <li>Жанр</li>
+                                            <li>Время показа</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Драма</li>
+                                            <li>75 мин</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="billboard__button-buy-tickets btn">Приобрести билеты</button>
+                            </div>
+                        </div>
+                        <div class="last-chance__block-img" style="--width-card: 760px; --height-card:400px">
+                            <!-- card-item -->
+                            <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                            <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                            <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                            <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                            <!-- card-item -->    
+                                
+                            <img src="assets/media/images/last-chance/last-chance-01.png" alt="">
+                        </div>
+                    </div>
+                    <!-- ticket-2 -->
+                    <div class="last-chance__block-item">
+                        <div class="last-chance__info">
+                            <div class="last-chance__date-time">
+                                <div class="last-chance__date">
+                                    <span class="last-chance__date-number">27</span>
+                                    <p>ноя</p>
+                                </div>
+                                <p>Ср 19:30</p>
+                            </div>
+                            <div class="last-chance__line"></div>
+                            <div class="last-chance__info-text">
+                                <div class="show-titles-list">
+                                    <span class="show-titles">Rhythms</span>
+                                    <div class="show-list">
+                                        <ul>
+                                            <li>Жанр</li>
+                                            <li>Время показа</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Балет</li>
+                                            <li>90 мин</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="billboard__button-buy-tickets btn">Приобрести билеты</button>
+                            </div>
+                        </div>
+                        <div class="last-chance__block-img" style="--width-card: 760px; --height-card:400px">
+                            <!-- card-item -->
+                            <div class="catalog-card_item" style="--item-top: 0; --item-left: 0"></div>
+                            <div class="catalog-card_item" style="--item-top: 0; --item-right: 0"></div>
+                            <div class="catalog-card_item" style="--item-bottom: 0; --item-left: 0"></div>
+                            <div class="catalog-card_item" style="--item-bottom: 0; --item-right: 0"></div>
+                            <!-- card-item -->    
+                                
+                            <img src="assets/media/images/last-chance/last-chance-02.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- last-chance end -->
+
+    <!-- footer start -->
+    <footer id="footer">
+        <div class="container py-80">
+            <div class="footer__content py-20">
+                <div class="footer__content-navigation">
+                    <!-- block-1 -->
+                    <div class="footer-block">
+                        <div class="footer__logo">
+                            <svg width="65" height="60" viewBox="0 0 65 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.4485 0.259837L27.4239 0.941905V6.95062C26.3525 6.13863 25.1137 5.68392 23.7745 5.68392C19.8907 5.68392 16.7435 9.61394 16.7435 14.4209C16.7435 19.2279 19.8907 23.1579 23.7745 23.1579H24.3771L27.6582 21.339C27.6582 21.339 27.6582 21.3066 27.6917 21.3066L29.734 22.7357H30.2697L32.7808 20.8518V20.6245L30.8389 20.8518V0H25.4485V0.259837ZM20.1585 14.4209C20.1585 9.84129 21.7656 6.10615 23.7745 6.10615C25.3815 6.10615 26.8882 7.56773 27.4239 9.74385V20.8518L24.0088 22.7357H23.7745C21.7991 22.7357 20.1585 19.0005 20.1585 14.4209Z" fill="#F4F4F4"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.75427 22.7681H17.5774L11.5509 10.1011L13.3253 9.45154V9.22418H5.85913V0.552152H11.4504C12.5218 0.552152 13.5597 0.974387 14.3298 1.72142C15.0998 2.46844 15.5351 3.47531 15.5351 4.51465V5.71639H15.7694L16.6065 0.0324791H0V0.259837L1.94188 0.974386V20.8843L4.75427 22.7681ZM12.0531 22.216H5.85913V9.77633H8.40367C9.84334 9.77633 11.1826 10.5883 11.7852 11.855C12.1089 12.5371 12.4808 13.3273 12.8528 14.1176C13.5969 15.6983 14.3409 17.2791 14.698 17.9937C14.832 18.2535 14.8989 18.5133 14.9659 18.8056C15.1333 19.6501 14.8989 20.5271 14.3298 21.1766C13.7606 21.8262 12.9236 22.216 12.0531 22.216Z" fill="#F4F4F4"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M46.4946 11.043L36.3164 16.7594C36.9191 20.2347 38.8944 22.7357 41.6733 22.7357C43.7826 22.7357 45.7245 21.9886 46.8963 20.2023L47.3316 20.4946C46.0928 22.4758 43.9165 23.1579 41.6733 23.1579C36.7182 23.1579 32.7005 19.2604 32.7005 14.4534C32.7005 9.64642 36.7182 5.74887 41.6733 5.74887C43.7491 5.74887 45.6241 6.43094 47.1307 7.53525V7.56773L46.4946 11.043ZM45.7245 10.8482C44.7536 7.69765 43.5483 6.13863 41.6733 6.13863C38.3253 6.13863 36.1155 9.80882 36.1155 14.4534C36.1155 15.038 36.149 15.6227 36.216 16.1748L45.7245 10.8482Z" fill="#F4F4F4"/>
+                                <path d="M55.4245 5.71639L52.3778 7.40533V6.10615H47.0208V6.36599L48.9627 7.04806V21.0792L51.2729 22.7681H51.8421L54.3531 20.8843V20.6245L52.3778 20.8843V8.02244L55.7928 6.10615H56.0271C58.036 6.10615 59.6431 6.59334 59.6431 10.4584V21.0792L61.9532 22.7681H62.5224L65 20.8843V20.6245L63.0581 20.8843V10.4584C63.0581 5.87879 59.9109 5.71639 56.0271 5.71639H55.4245Z" fill="#F4F4F4"/>
+                                <path d="M18.8968 25.1489V60H20.8395L25.7845 56.5985V25.9113L28.9163 24.7278L28.9191 56.5985H35.8039L35.804 24.6221L39.2155 25.9113V56.5985L44.1605 60H46.1032V25.1489H55.9342C57.818 25.1489 59.643 25.9113 60.9969 27.2602C62.3509 28.609 63.1162 30.4271 63.1162 32.3038V34.4737H63.5283L65 24.2105H35.8011V24.2282L29.1989 24.2105H0L1.47172 34.4737H1.8838V32.3038C1.8838 30.4271 2.64909 28.609 4.00307 27.2602C5.35704 25.9113 7.18197 25.1489 9.06577 25.1489H18.8968Z" fill="#F4F4F4"/>
+                            </svg>       
+                        </div>
+                        <div class="footer__navigation">
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Афиша</a></li>
+                                    <li><a href="#">Касса</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Расписание</a></li>
+                                    <li><a href="#">О театре</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Контакты</a></li>
+                                    <li><a href="#">Новости</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Прочее</a></li>
+                                </ul>    
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- block-2 -->
+                    <div class="footer-block">
+                        <div class="footer-block-info">
+                            <p>Тел.:</p>
+                            <a href="tel:+79876543210">+7 (987) 654-32-10</a>
+                        </div>
+                        <div class="footer-block-info">
+                            <p>Адресс:</p>
+                            <div class="address">улица Бутлерова, 8,<br>
+                                Казань, Республика Татарстан
+                            </div>
+                        </div>
+                        <div class="footer-block-info">
+                            <p>Почта:</p>
+                            <a href="mailto:eden@mail.ru">eden@mail.ru</a>
+                        </div>
+                    </div>
+                    <!-- block-3 -->
+                    <div class="footer-block">
+                        <a href="#">Правила пользования платформой</a>
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                </div>
+                <div class="footer__form">
+                    <p>Рассылка</p>
+                    <p>Будьте в курсе всех новостей</p>
+                    <form>
+                        <input class="style-form" type="text" placeholder="Ваше имя">
+                        <input class="style-form" type="email" placeholder="Ваш Email">
+                        <input class="btn" type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+</html>
